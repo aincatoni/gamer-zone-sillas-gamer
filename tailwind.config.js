@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
+    fontFamily: {
+      signika: "'Signika', sans-serif",
+    },
     colors: {
       transparent: "transparent",
       current: "currentColor",
