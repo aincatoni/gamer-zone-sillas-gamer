@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 @layer components {
- .title-buble-speach_primary {
-  @apply w-auto w-[96%] mx-auto my-6 bg-green-pcf pl-5 flex items-center justify-between relative after:content-[''] after:absolute after:bottom-0 after:right-0 after:w-0 after:h-0 after:border-[20px] after:border-[transparent] after:border-t-green-pcf after:border-b-0 after:border-l-0 after:mr-[100px] after:mb-[-20px];
- }
- .title-buble-speach_secondary {
-  @apply w-auto w-[96%] mx-auto my-6 bg-yellow-pcf pr-5 flex items-center justify-start relative after:content-[''] after:absolute after:bottom-0 after:right-0 after:w-0 after:h-0 after:border-[20px] after:border-[transparent] after:border-t-yellow-pcf after:border-b-0 after:border-l-0 after:mr-[100px] after:mb-[-20px];
- }
+  .title-buble-speach_primary {
+    @apply w-auto mx-auto my-6 bg-green-pcf pl-5 flex items-center justify-between relative after:content-[''] after:absolute after:bottom-0 after:right-0 after:w-0 after:h-0 after:border-[20px] after:border-[transparent] after:border-t-green-pcf after:border-b-0 after:border-l-0 after:mr-[100px] after:mb-[-20px];
+  }
+  .title-buble-speach_secondary {
+    @apply w-auto md:w-[80%] mx-auto md:mx-[unset] my-6 bg-yellow-pcf pr-5 flex items-center justify-start relative after:content-[''] after:absolute after:bottom-0 after:right-0 after:w-0 after:h-0 after:border-[20px] after:border-[transparent] after:border-t-yellow-pcf after:border-b-0 after:border-l-0 after:mr-[500px] after:mb-[-20px];
+  }
 }
